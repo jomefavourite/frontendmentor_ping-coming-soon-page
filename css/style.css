@@ -1,0 +1,94 @@
+.img {
+  margin: 4rem 0 5rem;
+}
+
+h1 {
+  color: #969696;
+  font-size: 2rem;
+  font-weight: 300;
+  margin: 2rem 0 1rem;
+}
+
+.h1 {
+  color: #151f29;
+  font-weight: 600;
+  font-size: 2rem;
+}
+
+form {
+  margin: 2rem auto;
+  max-width: 700px;
+}
+
+form > div {
+  margin: 0 auto !important;
+}
+
+.icon {
+  display: flex;
+  border: 1px solid #c2d3ff;
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+.icon img {
+  display: block;
+  width: 1rem;
+  max-width: 700px;
+}
+
+.icon .face {
+  width: 10px;
+}
+
+.icon .face2 {
+  width: 15px;
+}
+
+.icon + .icon {
+  margin-left: 15px;
+}
+
+.icon:hover {
+  background: #4f7df3;
+}
+
+.icon:hover .face,
+.icon:hover .face2 {
+  fill: #fff;
+}
+
+@media (min-width: 576px) {
+  .error {
+    position: absolute;
+    margin-top: 40px;
+    text-align: left;
+  }
+  input[type="submit"] {
+    margin-left: 20px;
+  }
+}
+
+@media (min-width: 800px) {
+  h1 {
+    font-size: 3rem;
+  }
+  h1 .h1 {
+    font-size: 3rem;
+  }
+  h1 + p {
+    font-size: 1.2rem;
+  }
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: #3e52a3;
+}
